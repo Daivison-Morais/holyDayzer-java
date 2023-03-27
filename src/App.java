@@ -3,8 +3,8 @@ public class App {
         Feriado Feriado = new Feriado();
 
         System.out.println(Feriado.ehFeriado("17/04/2023"));
-        
-        System.out.println(Feriado.setNovoFeriado("14/05/2023 ", "corresponde ao dia das mães"));
+
+        Feriado.setNovoFeriado("14/05/2023 ", "corresponde ao dia das mães");
         System.out.println(Feriado.getDataFeriado());
 
     }

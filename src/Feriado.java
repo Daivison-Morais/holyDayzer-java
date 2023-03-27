@@ -27,8 +27,8 @@ public class Feriado implements interfaceFeriado {
         return data + " Não é feriado!";
     }
 
-    public String setNovoFeriado(String data, String texto) {
-       return this.dataFeriado = data + texto;
+    public void setNovoFeriado(String data, String texto) {
+        this.dataFeriado = data + texto;
     }
 
     public String getDataFeriado() {
